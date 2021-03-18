@@ -58,6 +58,9 @@ This command allow you to access into a shell with access to your project
 make shell
 ```
 
+## Test
+
+This command run your Go test
 
 ```
 make test
