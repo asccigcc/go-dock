@@ -1,6 +1,6 @@
 # Go-Dock
 
-Go-Dock is a Dockerfile that helps to use go easly in your computer. With the power of Make and Docker we create a Docker container with Go installed and access to your local development environment.
+Go-Dock is a Dockerfile that helps to use go easly in your computer. With the power of Make and Docker we create a Dockerfile with Go pre-installed and we bring access to your local development environment.
 
 Docker is initialized allowing to mount the development path where your project is saved and providing a clean environment to develop and test your application.
 
