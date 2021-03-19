@@ -68,3 +68,7 @@ This command run your Go test
 ```
 make test
 ```
+
+## Credits
+
+I was inspired by [Francesc Campoy](https://github.com/campoy) presentation in this [video](https://www.youtube.com/watch?v=1BL7yrV1BBQ&t=685s).
