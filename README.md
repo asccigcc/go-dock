@@ -25,7 +25,7 @@ curl -OL https://raw.githubusercontent.com/asccigcc/go-dock/master/dockerfiles/D
 curl -OL https://raw.githubusercontent.com/asccigcc/go-dock/master/Makefile
 ```
 
-This will download all indi
+This will download all the files required inside you project root directory.
 ## Configure the docker
 
 Edit Makefile adding your project information:
