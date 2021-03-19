@@ -4,7 +4,10 @@ TAG=asccigcc/dredd
 
 # Build the development Docker file
 docker-build:
-	docker build --tag=$(TAG) --build-arg GITHUB_ACCESS_TOKEN .
+	docker build \
+		-f dockerfiles/Dockerfile \
+		--tag=$(TAG) \
+		--build-arg GITHUB_ACCESS_TOKEN .
 
 # Start a development shell
 shell:

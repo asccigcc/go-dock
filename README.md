@@ -18,10 +18,10 @@ GITHUB_ACCESS_TOKEN=[YOUR TOKEN]
 ```
 ## Download go-dock
 
-Clone this repository inside your Go project. It is very important to use the period at the end of the clone command in that way your current project will receive the Dockerfile and the Makefile.
+Download this repository using `curl` inside your Go project.
 
 ```
-curl -OL https://raw.githubusercontent.com/asccigcc/go-dock/master/Dockerfile
+curl -OL https://raw.githubusercontent.com/asccigcc/go-dock/master/dockerfiles/Dockerfile
 curl -OL https://raw.githubusercontent.com/asccigcc/go-dock/master/Makefile
 ```
 
