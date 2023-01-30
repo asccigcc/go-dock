@@ -1,0 +1,28 @@
+version: "3.9"
+
+services:
+  # Dev environment
+  godock:
+    image: "godock"
+    build:
+      context: ./
+      dockerfile: ./dockerfile/Dockerfile
+      args:
+        - GITHUB_ACCESS_TOKEN=${GITHUB_ACCESS_TOKEN}
+    volumes:
+      - ~/.vim:/root/.vim
+      - ~/.vimrc:/root/.vimrc
+      - ./:/go/src/github.com/go-dock
+    # depends_on:
+    container_name: "godock"
+    ports:
+      - "8088:8080"
+      - "3000:3000"
+      - "9398:9394"
+    env_file: .env
+    # environment:
+    tty: true
+    stdin_open: true
+
+volumes:
+  dbdata:
